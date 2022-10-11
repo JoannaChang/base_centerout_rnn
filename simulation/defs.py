@@ -6,6 +6,7 @@ RESULTS_FOLDER = "results/"
 DATA_FOLDER = "data/"
 FIGURES_FOLDER = "figures/"
 CONFIGS_FOLDER = "simulation/configs/"
+EXP_DATA_FOLDER = '../exp_data/'
 
 #LOGGING
 PRINT_EPOCH = 5
