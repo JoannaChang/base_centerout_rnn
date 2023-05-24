@@ -18,6 +18,3 @@ Basic RNN for performing center-out task based on experimental monkey data. Use 
    pip install -e .
    ```
    from the root of the repository. 
-  
-## Reproducing figures
-Each figure in the paper has an associated Jupyter notebook under ```paper/```. Running the cells reproduces all of the subfigures, and the first cell runs the simulations associated with the figure.
