@@ -5,8 +5,8 @@ Basic RNN for performing center-out task based on experimental monkey data. Use 
 ## Getting Started
 1. Clone the repository
    ```
-   git clone https://github.com/NeuralAnalysis/PyalData.git
-   cd PyalData
+   git clone https://github.com/JoannaChang/base_centerout_rnn.git
+   cd base_centerout_rnn
    ```
 2. Create and activate the conda environment
    ```
