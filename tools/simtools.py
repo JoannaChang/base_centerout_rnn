@@ -41,8 +41,9 @@ def model_to_pyaldata (seed: int, sim: int):
     df['bin_size'] = rnn_defs.DT
     df['idx_trial_start'] = 0
     df['idx_target_on'] = 0
-    df['idx_go_cue'] = rnn_defs.GO_CUE
+    df['idx_go_cue'] = test_data['go_onset']
     df['idx_trial_end'] = tsteps-1
     df['MCx_rates'] =[activity[i,:] for i in range(ntrials)] 
     df['pos'] = [output[i,:] for i in range(ntrials)] 
     return df
+

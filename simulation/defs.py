@@ -37,3 +37,5 @@ trial_ex = 1
 WINDOW_prep = (-.40, .05)  # sec
 WINDOW_exec = (-.05, .40)  # sec
 WINDOW_prep_exec = (-.40, .40)  # sec
+TSTEPS = 400
+DT = 0.01
