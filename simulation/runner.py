@@ -304,7 +304,6 @@ class Runner:
         lc: list
             loss during training
         """
-        torch.autograd.set_detect_anomaly(True)
         lc = [] # save loss
         training_trial = 0
         finished_training = False
